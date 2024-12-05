@@ -14,11 +14,11 @@
 }
 .header_1 h1 {
     font-size: 22px;
-    background-color: rgba(145, 247, 29, 0.856);
+    background-color: #d8ff00;
     font-weight: bold;
 }
 .header_1 {
-    background-color: rgba(145, 247, 29, 0.856);
+    background-color: #d8ff00;
 }
 
 .header div {
@@ -48,7 +48,7 @@
     font-size: 18px;
     padding: 10px 0 10px 0;
     color: black;
-    background-color: rgba(145, 247, 29, 0.856);
+    background-color: #d8ff00;
 }
 /*fin title*/
 .coleccion_1 div {
@@ -63,4 +63,14 @@
 .section_5 div {
     display: flex;
     justify-content: center;
+}
+.section_5 div button {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: #d8ff00;
+    border: none;
+}
+.descuento {
+    background: linear-gradient(to bottom, #d8ff00, white);
 }
