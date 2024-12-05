@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-banner {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.header {
+    height: 60px;
+}
+.header_1 h1 {
+    font-size: 22px;
+    background-color: rgba(145, 247, 29, 0.856);
+    font-weight: bold;
+}
+.header_1 {
+    background-color: rgba(145, 247, 29, 0.856);
+}
+
+.header div {
+    border: solid 1px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_2 {
+    border: none;
+}
+.header_6 img {
+    width: 40px;
+}
+
+/*Fin header*/
+.title h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    color: black;
+}
+.sub_title h2 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+    color: black;
+    background-color: rgba(145, 247, 29, 0.856);
+}
+/*fin title*/
+.coleccion_1 div {
+    text-align: center;
+}
+.section_3 div h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color:black;
+    font-weight: bold;
+}
+.section_5 div {
+    display: flex;
+    justify-content: center;
+}

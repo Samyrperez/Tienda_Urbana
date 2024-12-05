@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Playeras</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header-banner {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #000000;
+        }
+        .gradient-bg {
+            background: linear-gradient(to bottom, #d8ff00, white);
+            text-align: center;
+            padding: 30px 0;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-title, .product-price {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <div class="header-banner">
+        Rebaja del 25% en todo, usando TEE25 al pagar
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">T SHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nuevo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Mujer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hombre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Título -->
+    <div class="gradient-bg">
+        <h1>Playeras mujeres</h1>
+    </div>
+
+    <!-- Galería de productos -->
+    <div class="container my-5">
+        <div class="row">
+            <!-- Producto -->
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x200" alt="Producto">
+                    <p class="product-title">Producto</p>
+                    <p class="product-price">$299.00</p>
+                </div>
+            </div>
+            <!-- Repetir este bloque para cada producto -->
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x200" alt="Producto">
+                    <p class="product-title">Producto</p>
+                    <p class="product-price">$299.00</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x200" alt="Producto">
+                    <p class="product-title">Producto</p>
+                    <p class="product-price">$299.00</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/200x200" alt="Producto">
+                    <p class="product-title">Producto</p>
+                    <p class="product-price">$299.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
